@@ -6,7 +6,7 @@
 
 ## What this program does
 
-This program allows the user to 
+In this program we have created financial analysis tools to help members determine the current value of their portfolios, if they have enough assets to create an emergency fund and if not, how much more is needed to create this fund.  With this program we also run Monte Carlo simulations to determine benefits vs risks of retiring after 10 or 30 years.
 
 ---
 
@@ -72,6 +72,7 @@ For more information about Alpaca Trade API click [here](https://alpaca.markets/
 For more information about Monte Carlo Simulations click [here](https://www.investopedia.com/terms/m/montecarlosimulation.asp)
 
 ---
+
 
 ## Contributors
 
