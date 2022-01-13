@@ -1,12 +1,12 @@
-### Challenge 6 README
+### Challenge 5 README
 
-# Housing Rental Markets for Neighborhoods in the San Francisco Greater Area
+# Financial Planning Using APIs and Monte Carlo Simulations
 
 ---
 
 ## What this program does
 
-In this program we have created the ability to view San Francisco housing rental data in multiple interactive plot forms, including bar charts, line graphs, and map overlays. We can review all data by neighborhood with widgets that allow us to use a drop down menu to select from each neighborhood. The goal is to determine if a one-click buy-and-rent stragegy is a worthy investment for San Francisco.
+In this program we have created financial analysis tools to help members determine the current value of their portfolios, if they have enough assets to create an emergency fund and if not, how much more is needed to create this fund.  With this program we also run Monte Carlo simulations to determine benefits vs risks of retiring after 10 or 30 years.
 
 ---
 
@@ -20,8 +20,19 @@ Jupyter Lab Notebooks
 
 Python Requests Library
 
-Pandas Library including hvplot and geoviews
+Pandas Library
 
+Numpy Library
+
+Matplotlib inline
+
+JSON
+
+dotenv
+
+Alpaca Trade API - api and secret keys required 
+
+Monte Carlo Simulations
 
 
 ---
@@ -31,16 +42,34 @@ Pandas Library including hvplot and geoviews
 
 Make sure to run the appropriate imports:
 
+`import os`
+
+`import requests`
+
+`import json`
+
 `import pandas as pd`
 
-`import hvplot.pandas`
+`from dotenv import load_dotenv`
 
-`from pathlib import Path`
+`import alpaca_trade_api as tradeapi`
+
+`from MCForecastTools import MCSimulation`
+
+`%matplotlib inline`
 
 
 For more information about Pandas, click [here](https://pandas.pydata.org/)
 
-For more information about hvplot and geoviews, click [here](https://hvplot.holoviz.org/)
+For more information about NumPy, click [here](https://numpy.org/)
+
+For more information about Matplotlib, click [here](https://matplotlib.org/)
+
+For more information about JSON formatting, click [here](https://jsonformatter.org/)
+
+For more information about Alpaca Trade API click [here](https://alpaca.markets/algotrading)
+
+For more information about Monte Carlo Simulations click [here](https://www.investopedia.com/terms/m/montecarlosimulation.asp)
 
 ---
 
